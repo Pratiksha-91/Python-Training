@@ -1,0 +1,100 @@
+python -
+	Python is a high-level,sensitive, interpreted programming language known for its simplicity and readability. 
+	Python is widely used for various purposes including web development, data analysis, artificial intelligence, 
+	scientific computing, automation, and more.
+
+	1]Interpreted and Interactive: 
+		Python is an interpreted language, which means that code is
+		executed line by line by an interpreter, rather than compiled into machine code before execution.
+        	This allows for rapid development and testing through interactive sessions and scripting.
+
+	2]Cross-platform:
+		 Python is platform-independent, meaning it runs on various operating systems
+       		 including Windows, macOS, and Linux, making it versatile for development across different environments.		
+
+	3]Support for Multiple Programming Paradigms: 
+		Python supports multiple programming paradigms including procedural, object-oriented, and 
+		functional programming, allowing developers to choose the approach that best fits their needs.
+
+Procedural Programming:
+
+Definition: 
+	Procedural programming is a programming paradigm based on the concept of procedures or routines, 
+	which are sequences of instructions that perform a specific task. 
+ 	Programs in procedural languages are typically composed of procedures that manipulate data.
+
+Key Characteristics:
+
+1]Focuses on procedures or routines.
+2]Emphasizes the use of functions or procedures to structure code.
+3]Data is often manipulated using variables and passed as arguments to functions.
+4]Example languages: C
+
+#include <stdio.h>
+
+int main() {
+    int num1, num2, sum;
+    printf("Enter the first number: ");
+    scanf("%d", &num1);
+    printf("Enter the second number: ");
+    scanf("%d", &num2); sum = num1 + num2;
+    printf("The sum of %d and %d is: %d\n", num1, num2, sum);
+
+    return 0;
+}
+
+
+Object-Oriented Programming (OOP):
+
+Definition:
+	Object-oriented programming is a programming paradigm based on the concept of "objects," 
+	which are instances of classes that encapsulate data and behavior. 
+	Programs in OOP languages are structured around objects that interact with each other.
+
+Key Characteristics:
+
+1]Focuses on objects, which combine data (attributes) and behavior (methods).
+2]Encapsulation: Objects encapsulate data and behavior, hiding internal implementation details.
+3]Inheritance: Objects can inherit attributes and behavior from parent classes, promoting code reuse and modularity.
+4]Polymorphism: Objects can be treated as instances of their parent classes, allowing for flexibility and extensibility.
+Example languages: Java, Python, C++,C#.
+
+using System;
+
+class Circle
+{
+    private double radius;
+   
+    public Circle(double radius)
+    {
+        this.radius = radius;
+    }
+    public double CalculateArea()
+    {
+        return Math.PI * radius * radius;
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Circle myCircle = new Circle(5.0);
+
+        Console.WriteLine("Area of the circle: {0}", myCircle.CalculateArea());
+    }
+}
+
+
+
+Identation-
+
+
+
+Random Number
+ 	Python does not have a random() function to make a random number, but Python has a built-in module 
+	called random that can be used to make random numbers:
+
+		import randome
+		print(random.randrange(1,10))
+
